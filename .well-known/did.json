@@ -4,15 +4,15 @@
     "https://w3id.org/security/multikey/v1",
     "https://w3id.org/security/suites/secp256k1-2019/v1"
   ],
-  "id": "did:web:afternooncurry.github.io",
+  "id": "did:web:currydidweb.bsky.social",
   "alsoKnownAs": [
-    "at://afternooncurry.github.io"
+    "at://currydidweb.bsky.social"
   ],
   "verificationMethod": [
     {
-      "id": "did:web:afternooncurry.github.io#atproto",
+      "id": "did:web:currydidweb.bsky.social#atproto",
       "type": "Multikey",
-      "controller": "did:web:afternooncurry.github.io",
+      "controller": "did:web:currydidweb.bsky.social",
       "publicKeyMultibase": "zDnaetFYmrW98wL1sX7UohdZZrvFkngobKawfW7hDA3BZReAE"
     }
   ],
@@ -20,7 +20,7 @@
     {
       "id": "#atproto_pds",
       "type": "AtprotoPersonalDataServer",
-      "serviceEndpoint": "https://afternooncurry.com"
+      "serviceEndpoint": "https://bsky.social"
     }
   ]
 }
